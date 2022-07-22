@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Pages/Login Pages/Login.css">
+    <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <title>The Dash</title>
+</head>
+<body>
+    <div class="Main_Div">
+        <div class="Form">
+            <div class="headg_sec">    
+      <img src="./Images/logo_1.png" alt="" >
+</div>
+<br><br>
+   <!--input div  -->
+<div class="input_sec">
+    <div class="error_div" id="error_sec">
+<span class="err_text">Please provide a username and password </span>
+    </div><br>
+    <br>
+<input type="text" placeholder="Username" class="input" id="loginemail"><br><br>
+<input type="password" placeholder="Password" class="input" id="loginpass"><br>
+<a href="https://thedash.soc.tas.edu.au/passwordReset" class="link_">Parents, forgotten your username or password?</a>
+
+<br><br><br>
+<input type="checkbox" class="check_box">
+<span class="remb_btn">Remember me</span>
+<br><br>
+<button class="log_btn" onclick="login_S()">Login</button>
+<div class="or_setup">
+
+    <span class="or_dash">-</span><span class="or_dash">OR</span><span class="or_dash">-</span><br>
+    <a href="" class="link_2">Login using Single Sign-On</a>
+</div>
+
+</div>
+
+        </div>
+        <div class="sec_footer">
+        <span class="coye_right">2022 © Copyright <a href="" class="linK_footer"> Scotch Oakburn College</a> <a href="https://thedash.soc.tas.edu.au/policy" class="linK_footer"> Guidelines of Use </a>and <a href="" class="linK_footer"> Privacy Policy </a> <a href="" class="linK_footer"> Schoolbox 21.1.12 Support and Feedback </a> </span>
+    </div>
+    </div>
+    <script src="./firebase-init/firebase-init.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

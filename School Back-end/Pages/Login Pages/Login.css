@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.Main_Div{
+    width: 100%;
+    height: 620px;
+    background-image: url("../../Images/image.jpeg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.Form{
+    width: 30%;
+    height: 600px;
+    float: right;
+    background-color:rgba(0, 0, 0, 0.548);
+    padding-bottom: 20px;
+    
+}
+@media screen and (max-width:767px){
+   .Form{
+ width: 70%;
+    height: 500px;
+float: none;
+margin: auto;
+position: relative;
+top: 20px;
+   } 
+}
+@media screen and (max-width:1167px){
+    .Form{
+width:50% ;
+    } 
+ }
+ @media screen and (max-width:705px){
+    .Form{
+width: 70%;
+    } 
+ }
+ @media screen and (max-width:460px){
+    .Form{
+  width: 100%;
+
+    } 
+ }
+.logo{
+    margin-left: 40%;
+    position: relative;
+    top: 40px;
+}
+.headg_sec{
+    width: 300px;
+    margin-left: 20%;
+    position: relative;
+    top: 60px;
+}
+.input{
+    position: relative;
+    top: 20px;
+    padding: 14px 20px 14px 10px;
+    border: none;
+margin-left: 40px;
+width: 70%;
+}
+.input_sec{
+    position: relative;
+    top: 10px;
+    
+}
+.link_{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin-left: 40px;
+    text-align: justify;
+   
+}
+@media screen and (max-width:455px) {
+    .link_{
+        font-size: 11px;
+    }
+}
+.link_:hover{
+    text-decoration: underline;
+}
+.link_2{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    margin-left: 40px;
+    text-align: justify;
+}
+.check_box{
+width: 60px;
+height: 30px;
+margin-left: 30px;
+}
+.remb_btn{
+    color: white;
+    /* margin-left: 20px; */
+    position: relative;
+    bottom: 10px;
+}
+.log_btn{
+    width: 70%;
+    padding: 05px;
+    height: 40px;
+    background-color: #f3c30e;
+    color: brown;
+    margin-left:40px ;
+    border: none;
+}
+.or_setup{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: white;
+}
+.linK_footer{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.sec_footer{
+    width: 90%;
+    height: 60px;
+    color: white;
+    text-align: center;
+ position: relative;
+ top: 94%;
+    margin: auto;
+ 
+}
+@media screen and (max-width:755px) {
+    .sec_footer{
+     position: relative;
+     top: 30px;
+    }
+}
+.error_div{
+    position: relative;
+    top: 20px;
+    padding: 14px 20px 14px 10px;
+    border: none;
+margin-left: 40px;
+width: 70%;
+background-color: red;
+text-align: center;
+color: white;
+display: none;
+bottom: 20px;
+}
